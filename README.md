@@ -398,6 +398,10 @@ root@f65be1987f84:~# nano helloworld.txt
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
 
 6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
+
+yes
+
+
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
 
@@ -409,6 +413,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ```
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
+
+gone
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -423,7 +429,12 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
+
+no,the data doesn't persist when that container no longer exists
+
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+
+yes
 
 ## Running your own container with persistent storage
 
