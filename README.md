@@ -58,8 +58,17 @@ Team Mates:
 ***Questions:***
 
 1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
+
+Ubuntu Linux
+
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
+
+ 2 cores, 8 GB RAM, and 32 GB storage
+
 3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+
+track changes and commit messages
+
 
 ## Exploring the Terminal
 
@@ -494,8 +503,18 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+
+total 20
+-rw-rw-rw- 1 codespace codespace   352 Jan 25 10:17 index.html
+-rw-rw-rw- 1 codespace codespace 15186 Jan 25 10:14 logo.jpeg
+
 2. What port is the apache web server running. ***(1 mark)***
+
+port 80
+
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+
+80
 
 ## What to submit
 
