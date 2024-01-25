@@ -340,10 +340,16 @@ Linux codespaces-9db3c6 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 
-
+17516688
 
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+
+Linux codespaces-9db3c6 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+
+
+
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
